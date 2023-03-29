@@ -1,0 +1,65 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.box {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.formBox {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.idBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.idBox > p,
+.pwBox > p {
+  width: 20%;
+}
+.idBox > input,
+.pwBox > input {
+  width: 80%;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.pwBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
